@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio built with tailwind",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "tailwindcss build src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyomikeCharles/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyomikeCharles/portfolio/issues"
+  },
+  "homepage": "https://github.com/AyomikeCharles/portfolio",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
