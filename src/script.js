@@ -66,4 +66,9 @@ const reverseSidebar = () => sidebar.reverse()
 
 document.querySelector('#menuu').onclick = () => sidebar.play();
 
+document.querySelector('#mode').onclick = () => {
+    document.querySelector('html').classList.toggle('dark') 
+};
+
+
 

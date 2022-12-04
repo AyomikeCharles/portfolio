@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class='dark'>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,23 +12,24 @@
     
     <title>Charles Ayomike</title>
 </head>
-<body class="bg-stone-900 text-white font-Montserrat">
+<body class="bg-white dark:bg-stone-900 text-black dark:text-white font-Montserrat">
     <header id="nav">
         <nav class="flex p-8">
-            <div class="basis-11/12 md:basis-1/3">
+            <div class="basis-10/12 md:basis-2/4">
                CHARLES
             </div>
-            <ul class="hidden basis-2/3 md:flex">
-                <li class="flex-1 hover:text-teal-300 duration-700"><a href="#about">About</a></li>
-                <li class="flex-1 hover:text-teal-300 duration-700"><a href="#skills">Skills</a></li>
-                <li class="flex-1 hover:text-teal-300 duration-700"><a href="#project">Project</a></li>
-                <li class="flex-1 hover:text-teal-300 duration-700"><a href="#contact">Contact</a></li>
+            <ul class="hidden basis-3/4 md:flex">
+                <li class="flex-1 duration-700"><a class='hover:text-teal-300' href="#about">About</a></li>
+                <li class="flex-1 duration-700"><a class='hover:text-teal-300' href="#skills">Skills</a></li>
+                <li class="flex-1 duration-700"><a class='hover:text-teal-300' href="#project">Project</a></li>
+                <li class="flex-1 duration-700"><a class='hover:text-teal-300' href="#contact">Contact</a></li>
             </ul>
+            <div id='mode' class='basis-1/12 md:basis-1/4'><i class="fa-solid fa-moon fa-lg"></i></div>
             <div id="menuu" class="inline md:hidden basis-1/12"><button><i class="fa-solid fa-bars fa-xl"></i></button></div>
         </nav>
     </header>
 
-    <section id="sidebar" class="p-5 fixed w-full overflow-hidden -left-full h-full top-0 right-0 z-50  bottom-0 bg-stone-800 duration-700">
+    <section id="sidebar" class="p-5 fixed w-full overflow-hidden -left-full h-full top-0 right-0 z-50 bg-gray-200  bottom-0 dark:bg-stone-800 duration-700">
         <div>
             <div class="flex">
 
@@ -49,11 +50,11 @@
 
     </section>
 
-    <section id="about" class="py-10 bg-stone-800">
+    <section id="about" class="py-10 bg-gray-200 dark:bg-stone-800">
         <div class="block md:flex justify-evenly">
             <div class="flex-1 flex justify-center">
-                <div class="w-72">
-                    <image src='src/img/me.jpeg' alt='a picture of me' class="w-full h-3/4 rounded myAnim"/>
+                <div class="w-56">
+                    <image src='src/img/me.jpeg' alt='a picture of me' class="w-full rounded myAnim"/>
                 </div>
             </div>
             <div class="flex-1 text-center md:text-left">
@@ -64,7 +65,7 @@
                     I am a website developer
                 </h3>
                 <p class='text-md myAnim'>
-                    lurem ipsum dolo colo menta lurem ipsum dolo colo mentalurem ipsum dolo colo mentalurem ipsum dolo colo mentalurem ipsum dolo colo mentalurem ipsum dolo colo mentalurem ipsum dolo colo mentalurem ipsum dolo colo mentalurem ipsum dolo colo mentalurem ipsum dolo colo mentalurem ipsum dolo colo mentalurem ipsum dolo colo menta
+                    I'm a responble, creative, friendly, open minded and ambitious web developer, open to full time and part time jobs or intership role as well. i simply enjoy working with code, developing beautiful responsive websites.
                 </p>
                 <div class="my-4 myAnim">
                     <a href="https://twitter.com/CharlesToritse" class="mx-2 hover:text-teal-500 duration-700"><i class="fa-brands fa-twitter fa-xl"></i></a>
@@ -82,44 +83,44 @@
         <div>
             <h4 class="[text-shadow:_0_0_8px_var(--tw-shadow-color)] shadow-teal-500 text-center text-5xl my-4 myAnim2">My Skills</h4>
 
-            <div class="grid grid-cols-3 md:grid-cols-4 my-10 gap-2 mx-auto md:gap-3 w-3/4 sm:w-2/4">
+            <div class="grid grid-cols-3 lg:grid-cols-4 my-10 gap-2 mx-auto md:gap-3 w-3/4 sm:w-2/4">
 
-                <div class="bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
+                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
                     <img src="src/img/html.png" alt="html skills" class="w-10 h-15">
                     <p class="mt-2 hidden md:block">HTML</p>
                 </div>
 
-                <div class="bg-stone-600 px-2 py-6 flex justify-items-center justify-center myAnim2">
+                <div class="bg-gray-200 dark:bg-stone-600  px-2 py-6 flex justify-items-center justify-center myAnim2">
                     <img src="src/img/css.png" alt="skills" class="w-10 h-15">
                     <p class="mt-2 hidden md:block">CSS</p>
                 </div>
 
-                <div class="bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
+                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
                     <img src="src/img/js.png" alt="skills" class="w-10 h-15">
                     <p class="mt-2 hidden md:block">Javascript</p>
                 </div>
 
-                <div class="bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
+                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
                     <img src="src/img/bootstrap.png" alt="html skills" class="w-10 h-15">
                     <p class="mt-2 hidden md:block">Bootstrap</p>
                 </div>
 
-                <div class="bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
+                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
                     <img src="src/img/tailwind.png" alt="skills" class="w-10 h-15">
                     <p class="mt-2 hidden md:block">Tailwind</p>
                 </div>
 
-                <div class="bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
+                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
                     <img src="src/img/react.png" alt="skills" class="w-10 h-15">
                     <p class="mt-2 hidden md:block">React</p>
                 </div>
 
-                <div class="bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
+                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
                     <img src="src/img/redux.png" alt="skills" class="w-10 h-15">
                     <p class="mt-2 hidden md:block">Redux</p>
                 </div>
 
-                <div class="bg-stone-600 px-2 py-6 rounded  flex justify-items-center justify-center myAnim2">
+                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded  flex justify-items-center justify-center myAnim2">
                     <img src="src/img/github.png" alt="skills" class="w-72 h-15">
                     
                 </div>
@@ -134,7 +135,7 @@
         <div class='m-10'>
             <div class='grid grid-cols-1 lg:grid-cols-3 place-items-center px-3'>
 
-                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-stone-600  sm:mx-10 mb-10 myAnim3">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600 sm:mx-10 mb-10 myAnim3">
                     <img class="w-full h-44" src="src/img/mp.png" alt="">
                     <div class="p-4">
                       <div class="text-xl mb-2">Music Player</div>
@@ -143,19 +144,18 @@
                       </p>
                     </div>
                     <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/music-player">view</a></span>
-                      <span class="inline-block bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/music-player">code</a></span>
+                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/music-player">view</a></span>
+                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/music-player">code</a></span>
 
                         <i class="fa-brands fa-react fa-lg"></i>
                         <i class="fa-brands fa-html5 fa-lg"></i>
-                        <i class="fa-brands fa-css3-alt fa-lg"></i>
                         <i class="fa-brands fa-bootstrap fa-lg"></i>
                   
                     </div>
                    
                   </div>
 
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-stone-600  sm:mx-10 mb-10 myAnim3">
+                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600 sm:mx-10 mb-10 myAnim3">
                     <img class="w-full h-44" src="src/img/xo.png" alt="">
                     <div class="p-4">
                       <div class="text-xl mb-2">tic-tac-toe</div>
@@ -164,15 +164,15 @@
                       </p>
                     </div>
                     <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/x_and_o">view</a></span>
-                      <span class="inline-block bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/x_and_o">code</a></span>
+                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/x_and_o">view</a></span>
+                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/x_and_o">code</a></span>
                       <i class="fa-brands fa-react fa-lg"></i>
                       <i class="fa-brands fa-html5 fa-lg"></i>
                       <i class="fa-brands fa-css3-alt fa-lg"></i>
                     </div>
                   </div>
 
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-stone-600  sm:mx-10 mb-10 myAnim3">
+                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600 sm:mx-10 mb-10 myAnim3">
                     <img class="w-full h-44" src="src/img/pr.png" alt="">
                     <div class="p-4">
                       <div class="text-xl mb-2">Protected Route</div>
@@ -181,15 +181,15 @@
                       </p>
                     </div>
                     <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/protected-route/">view</a></span>
-                      <span class="inline-block bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/protected-route">code</a></span>
+                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/protected-route/">view</a></span>
+                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/protected-route">code</a></span>
                       <i class="fa-brands fa-react fa-lg"></i>
                       <i class="fa-brands fa-html5 fa-lg"></i>
                       <i class="fa-brands fa-css3-alt fa-lg"></i>
                     </div>
                   </div>
 
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-stone-600  sm:mx-10 mb-10 myAnim3">
+                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600 sm:mx-10 mb-10 myAnim3">
                     <img class="w-full h-44" src="src/img/watch.png" alt="">
                     <div class="p-4">
                       <div class="text-xl mb-2">Landing Page</div>
@@ -198,14 +198,14 @@
                       </p>
                     </div>
                     <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/watch">view</a></span>
-                      <span class="inline-block bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/watch">code</a></span>
+                      <span class="inline-block bg-white dark:bg-gray-200hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/watch">view</a></span>
+                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/watch">code</a></span>
                       <i class="fa-brands fa-html5 fa-lg"></i>
                       <i class="fa-brands fa-css3-alt fa-lg"></i>
                     </div>
                   </div>
 
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-stone-600  sm:mx-10 mb-10 myAnim3">
+                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600  sm:mx-10 mb-10 myAnim3">
                     <img class="w-full h-44" src="src/img/cal.png" alt="">
                     <div class="p-4">
                       <div class="text-xl mb-2">Calculator</div>
@@ -214,8 +214,8 @@
                       </p>
                     </div>
                     <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/calculator">view</a></span>
-                      <span class="inline-block bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/calculator">code</a></span>
+                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/calculator">view</a></span>
+                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/calculator">code</a></span>
                       <i class="fa-brands fa-react fa-lg"></i>
                       <i class="fa-brands fa-html5 fa-lg"></i>
                       <i class="fa-brands fa-css3-alt fa-lg"></i>
@@ -229,12 +229,12 @@
     </section>
 
 
-    <section id="contact" class="py-24 bg-stone-800">
+    <section id="contact" class="py-24 bg-gray-200 dark:bg-stone-800">
         <h4 class="[text-shadow:_0_0_8px_var(--tw-shadow-color)] shadow-teal-500 text-center text-5xl my-4 myAmin5">Contact Me</h4>
         <div class="flex justify-center mt-5 p-2">
-            <div class="myAmin5"><a class="px-2 py-2 m-1 border rounded" href="mailto:charlesayomike4@gmail.com"><i class="fa-solid fa-envelope fa-lg"></i> mail</a></div>
-            <div class="myAmin5"><a class="px-2 py-2 m-1 border rounded" href="https://wa.me/2348140231279"><i class="fa-brands fa-whatsapp fa-lg"></i> whatsapp</a></div>
-            <div class="myAmin5"><a class="px-2 py-2 m-1 border rounded" href="TEL:+2348158786059"><i class="fa-solid fa-phone fa-lg"></i> call</a></div>
+            <div class="myAmin5"><a class="px-2 py-2 m-1 border border-black dark:border-white rounded" href="mailto:charlesayomike4@gmail.com"><i class="fa-solid fa-envelope fa-lg"></i> mail</a></div>
+            <div class="myAmin5"><a class="px-2 py-2 m-1 border border-black dark:border-white rounded" href="https://wa.me/2348140231279"><i class="fa-brands fa-whatsapp fa-lg"></i> whatsapp</a></div>
+            <div class="myAmin5"><a class="px-2 py-2 m-1 border border-black dark:border-white rounded" href="TEL:+2348158786059"><i class="fa-solid fa-phone fa-lg"></i> call</a></div>
         </div>
         <div class="flex justify-center">
             <div class='w-full md:w-2/4 p-5 md:p-0'>
@@ -255,7 +255,7 @@
         
     </section>
 
-    <footer class="p-5 bg-neutral-800">
+    <footer class="p-5 bg-white dark:bg-neutral-800">
         <div class="flex justify-center">
             Copyright @2022 CHARLES AYOMIKE. All rights reserved.
         </div>
