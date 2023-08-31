@@ -12,35 +12,70 @@
     
     <title>Charles Ayomike</title>
 </head>
-<body class="bg-white dark:bg-stone-900 text-black dark:text-white font-Montserrat duration-500">
-    <header id="nav">
-        <nav class="flex p-8">
-            <div class="basis-10/12 md:basis-2/4">
-               CHARLES
+<body class="bg-white dark:bg-black text-black dark:text-white font-Lexend_Deca duration-500">
+  <section class="w-full bg-fixed">
+    <div class="">
+      <header id="nav">
+        <nav class="flex p-8 justify-between">
+            <div class="basis-10/12 md:basis-3/12 font-bold text-2xl">
+              <a href="index.html"> < Ayomike />  </a>
             </div>
-            <ul class="hidden basis-3/4 md:flex">
-                <li class="flex-1 duration-700"><a class='hover:text-teal-300' href="#about">About</a></li>
-                <li class="flex-1 duration-700"><a class='hover:text-teal-300' href="#skills">Skills</a></li>
-                <li class="flex-1 duration-700"><a class='hover:text-teal-300' href="#project">Project</a></li>
-                <li class="flex-1 duration-700"><a class='hover:text-teal-300' href="#contact">Contact</a></li>
+            <ul class="hidden basis-5/12 md:flex font-semibold text-lg justify-between">
+                <li class="flex-1"><a class='hover:text-purple-300 duration-700' href="#about">About</a></li>
+                <li class="flex-1"><a class='hover:text-purple-300 duration-700' href="#skills">Skills</a></li>
+                <li class="flex-1"><a class='hover:text-purple-300 duration-700' href="#project">Project</a></li>
+                <li class="flex-1"><a class='hover:text-purple-300 duration-700' href="#contact">Contact</a></li>
             </ul>
-            <div id='mode' class='basis-1/12 md:basis-1/4'><i class="fa-solid fa-moon fa-lg"></i></div>
-            <div id="menuu" class="inline md:hidden basis-1/12"><button><i class="fa-solid fa-bars fa-xl"></i></button></div>
+            <div id='mode' class='basis-1/12 hidden md:flex pt-3'><i class="fa-solid fa-moon fa-lg"></i></div>
+            <div class="basis-2/12 md:hidden">
+              <div id="menuu" class="border w-[50px] rounded grid grid-cols-1 content-center  bg-purple-400/20 p-1"><button><i class="fa-solid fa-bars fa-xl"></i></button></div>
+            </div>
         </nav>
     </header>
 
-    <section id="sidebar" class="p-5 fixed w-full overflow-hidden -left-full h-full top-0 right-0 z-50 bg-gray-200  bottom-0 dark:bg-stone-800 duration-700">
+
+
+
+
+
+
+
+
+
+      <div class="text-center my-10 pt-5 relative z-20">
+
+        <img src="./src//img/img.jpg" class="rounded-full w-[150px] h-[150px] mx-auto">
+          
+          <h3 class="relative overflow-hidden text-center my-3 font-bold text-2xl md:text-4xl">
+              <span class="hi inline-block">Hi, I am Charles Ayomike </span><br>
+              <span class="text"></span>
+              <span class="cursor">_</span>
+          </h3>
+
+          <div class="my-10 flex flex-col space-y-5 absolute top-0 right-10">
+
+            <a href="https://twitter.com/CharlesToritse" class="mx-2 hover:text-purple-500 duration-700"><i class="fa-brands fa-twitter fa-xl"></i></a>
+            <a href="https://github.com/AyomikeCharles?tab=repositories" class="mx-2 hover:text-purple-500 duration-700""><i class="fa-brands fa-github fa-xl"></i></a>
+            <a href="http://www.linkedin.com/in/charles-ayomike-23ab08239" class="mx-2 hover:text-purple-500 duration-700"><i class="fa-brands fa-linkedin-in fa-xl"></i></i></a>
+          </div>
+      </div>
+
+  
+    </div>
+  </section>
+  
+    <section id="sidebar" class="p-5 fixed w-full overflow-hidden -left-full h-full top-0 right-0 z-50 bg-slate-100  bottom-0 dark:bg-slate-950 duration-700">
         <div>
             <div class="flex">
 
-                <div class="basis-11/12 md:basis-1/3 flex-2">
-                    CHARLES
+                <div class="basis-11/12 md:basis-1/3 flex-2 font-bold text-2xl">
+                    < CHARLES />
                  </div>
-                 <div onclick="reverseSidebar()" class="basis-1/12 flex-1"><button><i class="fa-solid fa-times fa-xl"></i></button></div>
+                 <div onclick="reverseSidebar()" class="basis-1/12 flex-1"><button class="border bg-purple-400/20 p-1 w-[50px] rounded"><i class="fa-solid fa-times fa-xl"></i></button></div>
                 
             </div>
             
-            <ul class="">
+            <ul class="text-lg">
                 <li class="m-2"><a href="#about" onclick="reverseSidebar()">About</a></li>
                 <li class="m-2"><a href="#skills" onclick="reverseSidebar()">Skills</a></li>
                 <li class="m-2"><a href="#project" onclick="reverseSidebar()">Project</a></li>
@@ -50,281 +85,290 @@
 
     </section>
 
-    <section id="about" class="py-10 bg-gray-200 dark:bg-stone-800">
-        <div class="block md:flex justify-evenly">
-            <div class="flex-1 flex justify-center">
-                <div class="w-56">
-                    <image src='src/img/me.jpeg' alt='a picture of me' class="w-full rounded myAnim"/>
-                </div>
-            </div>
-            <div class="flex-1 text-center md:text-left">
-                <h4 class="[text-shadow:_0_0_8px_var(--tw-shadow-color)] shadow-teal-500 text-5xl mb-16 mt-10 md:mt-0 myAnim">
-                    About Me
-                </h4>
-                <h3 class="text-2xl text-teal-500 mb-4 myAnim">
-                    I am a website developer
-                </h3>
-                <p class='text-md myAnim'>
-                    I'm a responsible, creative, friendly, open minded and ambitious web developer, open to full time and part time jobs or internship role as well. i simply enjoy working with code, developing beautiful responsive websites.
-                </p>
-                <div class="my-4 myAnim">
-                    <a href="https://twitter.com/CharlesToritse" class="mx-2 hover:text-teal-500 duration-700"><i class="fa-brands fa-twitter fa-xl"></i></a>
-                    <a href="https://github.com/AyomikeCharles?tab=repositories" class="mx-2 hover:text-teal-500 duration-700""><i class="fa-brands fa-github fa-xl"></i></a>
-                    <a href="http://www.linkedin.com/in/charles-ayomike-23ab08239" class="mx-2 hover:text-teal-500 duration-700"><i class="fa-brands fa-linkedin-in fa-xl"></i></i></a>
-                </div>
-                
-                <div class="myAnim"><button class="bg-teal-700 hover:bg-teal-900 text-white rounded focus:shadow focus:outline-none py-2 px-4"><a href="src/img/CharlesAyomike.pdf" download="charles ayomike cv">Download cv</a></button></div>
-                
-            </div>
-        </div>
-    </section>
+   
 
     <section id="skills" class="py-24">
         <div>
-            <h4 class="[text-shadow:_0_0_8px_var(--tw-shadow-color)] shadow-teal-500 text-center text-5xl my-4 myAnim2">My Skills</h4>
+            <h4 class="[text-shadow:_0_0_8px_var(--tw-shadow-color)] shadow-purple-500 text-center text-5xl my-4 relative z-20">My Skills</h4>
 
             <div class="grid grid-cols-3 lg:grid-cols-4 my-10 gap-2 mx-auto md:gap-3 w-3/4 sm:w-2/4">
 
-                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
-                    <img src="src/img/html.png" alt="html skills" class="w-10 h-15">
-                    <p class="mt-2 hidden md:block">HTML</p>
+                <div class="bg-slate-100 dark:bg-slate-900 shadow-md rounded py-2 md:px-2 myAnim2">
+                    <img src="src/img/html.png" alt="html skills" class="w-10 mx-auto">
+                    <p class="text-center">HTML</p>
                 </div>
 
-                <div class="bg-gray-200 dark:bg-stone-600  px-2 py-6 flex justify-items-center justify-center myAnim2">
-                    <img src="src/img/css.png" alt="skills" class="w-10 h-15">
-                    <p class="mt-2 hidden md:block">CSS</p>
+                <div class="bg-slate-100 dark:bg-slate-900 shadow-md rounded py-2 md:px-2 myAnim2">
+                    <img src="src/img/css.png" alt="skills" class="w-10 mx-auto">
+                    <p class="text-center">CSS</p>
                 </div>
 
-                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
-                    <img src="src/img/js.png" alt="skills" class="w-10 h-15">
-                    <p class="mt-2 hidden md:block">Javascript</p>
+                <div class="bg-slate-100 dark:bg-slate-900 shadow-md rounded py-2 md:px-2 myAnim2">
+                    <img src="src/img/js.png" alt="skills" class="w-10 mx-auto">
+                    <p class="text-center">Javascript</p>
                 </div>
 
-                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
-                    <img src="src/img/bootstrap.png" alt="html skills" class="w-10 h-15">
-                    <p class="mt-2 hidden md:block">Bootstrap</p>
+
+                <div class="bg-slate-100 dark:bg-slate-900 shadow-md rounded py-2 md:px-2 myAnim2">
+                    <img src="src/img/tailwind.png" alt="skills" class="w-10 mx-auto">
+                    <p class="text-center">Tailwind</p>
                 </div>
 
-                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
-                    <img src="src/img/tailwind.png" alt="skills" class="w-10 h-15">
-                    <p class="mt-2 hidden md:block">Tailwind</p>
+                <div class="bg-slate-100 dark:bg-slate-900 shadow-md rounded py-2 md:px-2 myAnim2">
+                    <img src="src/img/react.png" alt="skills" class="w-10 mx-auto">
+                    <p class="text-center">React</p>
                 </div>
 
-                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
-                    <img src="src/img/react.png" alt="skills" class="w-10 h-15">
-                    <p class="mt-2 hidden md:block">React</p>
-                </div>
+         
 
-                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
-                    <img src="src/img/redux.png" alt="skills" class="w-10 h-15">
-                    <p class="mt-2 hidden md:block">Redux toolkit</p>
-                </div>
-
-                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded  flex justify-items-center justify-center myAnim2">
-                    <img src="src/img/github.png" alt="skills" class="w-72 h-15">
+                <div class="bg-slate-100 dark:bg-slate-900 shadow-md rounded py-2 md:px-2 myAnim2">
+                    <img src="src/img/github.png" alt="skills" class="w-10 mx-auto">
+                    <p class="text-center">Github</p>
                     
                 </div>
 
-                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
-                    <img src="src/img/ts.png" alt="skills" class="w-10 h-15">
-                    <p class="mt-2 hidden md:block">TypeScript</p>
+                <div class="bg-slate-100 dark:bg-slate-900 shadow-md rounded py-2 md:px-2 myAnim2">
+                    <img src="src/img/ts.png" alt="skills" class="w-10 mx-auto">
+                    <p class="text-center">TypeScript</p>
                 </div>
 
-                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
-                    <img src="src/img/node.png" alt="skills" class="w-10 h-15">
-                    <p class="mt-2 hidden md:block">NodeJs</p>
+                <div class="bg-slate-100 dark:bg-slate-900 shadow-md rounded py-2 md:px-2 myAnim2">
+                    <img src="src/img/node.png" alt="skills" class="w-10 mx-auto">
+                    <p class="text-center">NodeJs</p>
                 </div>
 
-                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
-                    <img src="src/img/express.png" alt="skills" class="w-10 h-15">
-                    <p class="mt-2 hidden md:block">ExpressJs</p>
+                <div class="bg-slate-100 dark:bg-slate-900 shadow-md rounded py-2 md:px-2 myAnim2">
+                    <img src="src/img/express.png" alt="skills" class="w-10 mx-auto">
+                    <p class="text-center">ExpressJs</p>
                 </div>
 
 
-                <div class="bg-gray-200 dark:bg-stone-600 px-2 py-6 rounded flex justify-items-center justify-center myAnim2">
-                    <img src="src/img/mongodb.jpg" alt="skills" class="w-10 h-15">
-                    <p class="mt-2 hidden md:block">MongoDB</p>
+                <div class="bg-slate-100 dark:bg-slate-900 shadow-md rounded py-2 md:px-2 myAnim2">
+                    <img src="src/img/mongodb.png" alt="skills" class="w-10 mx-auto">
+                    <p class="text-center">MongoDB</p>
                 </div>
+
+
+                <div class="bg-slate-100 dark:bg-slate-900 shadow-md rounded py-2 md:px-2 myAnim2">
+                  <img src="src/img/expo.png" alt="skills" class="w-10 mx-auto">
+                  <p class="text-center">Expo</p>
+              </div>
+
+              <div class="bg-slate-100 dark:bg-slate-900 shadow-md rounded py-2 md:px-2 myAnim2">
+                <img src="src/img/react.png" alt="skills" class="w-10 mx-auto">
+                <p class="text-center">Native</p>
+            </div>
 
             </div>
         </div>
     </section>
 
-    <section id="project" class="py-24">
-        <h4 class="[text-shadow:_0_0_8px_var(--tw-shadow-color)] shadow-teal-500 text-center text-5xl myAnim3">My Projects</h4>
+    <section id="project" class="py-10">
+        <h4 class="[text-shadow:_0_0_8px_var(--tw-shadow-color)] shadow-purple-500 text-center text-5xl">My Projects</h4>
 
         <div class='m-10'>
-            <div class='grid grid-cols-1 lg:grid-cols-3 place-items-center px-3'>
+            <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center px-3'>
 
-                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600  sm:mx-10 mb-10 myAnim3">
-                    <img class="w-full h-44" src="src/img/prompt.png" alt="">
-                    <div class="p-4">
-                      <div class="text-xl mb-2">PromptSharer</div>
-                      <p class="text-base">
-                         PromptSharer is an open-source AI prompting tool for modern world to discover.
+                <div class="max-w-sm rounded p-2 overflow-hidden shadow-lg bg-slate-100 dark:bg-slate-900  sm:mx-10 mb-10 myAnim3">
+                  <div class="flex justify-between space-x-2">
+                    <div class="basis-7/12">
+                      <img src="src/img/prompt.png" alt="">
+                    </div>
+                    <div class="basis-5/12">
+                      <h3 class="text-lg font-semibold">PromptSharer</h3>
+                      <div class="text-xs">NextJs + NextAuth</div>
+                    </div>
+                  </div>
+
+                    <div class="py-2">
+                      <p class="text-sm">
+                         PromptSharer is an open-source AI prompting tool to save your prompt for future use.
                       </p>
                     </div>
-                    <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ai-prompt-sharer.vercel.app">view</a></span>
-                      <!-- <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/calculator">code</a></span> -->
-                      <i class="fa-brands fa-react fa-lg"></i>
+                    <div class="space-x-2">
+                      <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://ai-prompt-sharer.vercel.app"><i class="fa-regular fa-eye"></i> view</a></span>
+                      <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://github.com/AyomikeCharles/ai-prompt-sharer"><i class="fa-solid fa-code"></i> code</a></span>
                     </div>
                   </div>
 
 
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600  sm:mx-10 mb-10 myAnim3">
-                    <img class="w-full h-44" src="src/img/bezt.png" alt="">
-                    <div class="p-4">
-                      <div class="text-xl mb-2">BeztSeller</div>
-                      <p class="text-base">
-                         An E-commerce platform built with react and nodejs.
-                      </p>
+
+                  <div class="max-w-sm rounded p-2 overflow-hidden shadow-lg bg-slate-100 dark:bg-slate-900  sm:mx-10 mb-10 myAnim3">
+                    <div class="flex justify-between space-x-2">
+                      <div class="basis-7/12">
+                        <img src="src/img/bezt.png" alt="">
+                      </div>
+                      <div class="basis-5/12">
+                        <h3 class="text-lg font-semibold">BeztSeller</h3>
+                        <div class="text-xs">ReactJs + NodeJs + TypeScript + MongoDb</div>
+                      </div>
                     </div>
-                    <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://beztseller.netlify.app">view</a></span>
-                      <!-- <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/calculator">code</a></span> -->
-                      <i class="fa-brands fa-react fa-lg"></i>
-                      <i class="fa-brands fa-node fa-lg"></i>
+  
+                      <div class="py-2">
+                        <p class="text-sm">
+                          A complete e-commerce website with shopping cart, checkout and paystack payment gateway
+                        </p>
+                      </div>
+                      <div class="space-x-2">
+                        <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://beztseller.netlify.app"><i class="fa-regular fa-eye"></i> view</a></span>
+                        <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://github.com/AyomikeCharles/e-commerce-frontend"><i class="fa-solid fa-code"></i> code</a></span>
+                        <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://github.com/AyomikeCharles/e-commerce-backend"><i class="fa-solid fa-code"></i> code</a></span>
+                      </div>
                     </div>
-                  </div>
 
 
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600  sm:mx-10 mb-10 myAnim3">
-                    <img class="w-full h-44" src="src/img/360ads.png" alt="">
-                    <div class="p-4">
-                      <div class="text-xl mb-2">360Ads</div>
-                      <p class="text-base">
-                         frontend for an advertising company built with nextjs and tailwind.
-                      </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://360ads.ng">view</a></span>
-                      <i class="fa-brands fa-react fa-lg"></i>
-                    </div>
-                  </div>
-
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600  sm:mx-10 mb-10 myAnim3">
-                    <img class="w-full h-44" src="src/img/blog.png" alt="">
-                    <div class="p-4">
-                      <div class="text-xl mb-2">Blog</div>
-                      <p class="text-base">
-                         my personal blogging platform, built with nextjs and sanity.io.
-                      </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://charlesayomikeblog.vercel.app/">view</a></span>
-                      <!-- <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/calculator">code</a></span> -->
-                      <i class="fa-brands fa-react fa-lg"></i>
-                      <i class="fa-brands fa-html5 fa-lg"></i>
-                      <i class="fa-brands fa-css3-alt fa-lg"></i>
-                    </div>
-                  </div>
-
-                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600 sm:mx-10 mb-10 myAnim3">
-                    <img class="w-full h-44" src="src/img/mp.png" alt="">
-                    <div class="p-4">
-                      <div class="text-xl mb-2">Music Player</div>
-                      <p class="text-base">
-                         A music Player Challenge on twitter.
-                      </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/music-player">view</a></span>
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/music-player">code</a></span>
-
-                        <i class="fa-brands fa-react fa-lg"></i>
-                        <i class="fa-brands fa-html5 fa-lg"></i>
-                        <i class="fa-brands fa-bootstrap fa-lg"></i>
-                  
-                    </div>
-                   
-                  </div>
-
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600 sm:mx-10 mb-10 myAnim3">
-                    <img class="w-full h-44" src="src/img/xo.png" alt="">
-                    <div class="p-4">
-                      <div class="text-xl mb-2">tic-tac-toe</div>
-                      <p class="text-base">
-                         A simple Tic Tac Toe Game.
-                      </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/x_and_o">view</a></span>
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/x_and_o">code</a></span>
-                      <i class="fa-brands fa-react fa-lg"></i>
-                      <i class="fa-brands fa-html5 fa-lg"></i>
-                      <i class="fa-brands fa-css3-alt fa-lg"></i>
-                    </div>
-                  </div>
 
 
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600 sm:mx-10 mb-10 myAnim3">
-                    <img class="w-full h-44" src="src/img/todo.png" alt="">
-                    <div class="p-4">
-                      <div class="text-xl mb-2">Todo App</div>
-                      <p class="text-base">
-                         A Todo App built with React and TypeScript.
-                      </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-white dark:bg-gray-200hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/todos/">view</a></span>
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/todos/tree/master">code</a></span>
-                      <i class="fa-brands fa-react fa-lg"></i>
-                      <i class="fa-brands fa-css3-alt fa-lg"></i>
-                    </div>
-                  </div>
 
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600 sm:mx-10 mb-10 myAnim3">
-                    <img class="w-full h-44" src="src/img/pr.png" alt="">
-                    <div class="p-4">
-                      <div class="text-xl mb-2">Protected Route</div>
-                      <p class="text-base">
-                        Role base authourization using react router dom outlet.
-                      </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/protected-route/">view</a></span>
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/protected-route">code</a></span>
-                      <i class="fa-brands fa-react fa-lg"></i>
-                      <i class="fa-brands fa-html5 fa-lg"></i>
-                      <i class="fa-brands fa-css3-alt fa-lg"></i>
-                    </div>
-                  </div>
 
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600 sm:mx-10 mb-10 myAnim3">
-                    <img class="w-full h-44" src="src/img/watch.png" alt="">
-                    <div class="p-4">
-                      <div class="text-xl mb-2">Landing Page</div>
-                      <p class="text-base">
-                         A simple landing page for a write watch website.
-                      </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-white dark:bg-gray-200hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/watch">view</a></span>
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/watch">code</a></span>
-                      <i class="fa-brands fa-html5 fa-lg"></i>
-                      <i class="fa-brands fa-css3-alt fa-lg"></i>
-                    </div>
-                  </div>
 
+
+                    <div class="max-w-sm rounded p-2 overflow-hidden shadow-lg bg-slate-100 dark:bg-slate-900  sm:mx-10 mb-10 myAnim3">
+                      <div class="flex justify-between space-x-2">
+                        <div class="basis-7/12">
+                          <img src="src/img/360ads.png" alt="">
+                        </div>
+                        <div class="basis-5/12">
+                          <h3 class="text-lg font-semibold">360Ads</h3>
+                          <div class="text-xs">NextJs + TypeScript</div>
+                        </div>
+                      </div>
+    
+                        <div class="py-2">
+                          <p class="text-sm">
+                            360Ads is an upcoming online advertising agency in nigeria, the full website will become available when launch
+                          </p>
+                        </div>
+                        <div class="">
+                          <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://360ads.ng"><i class="fa-regular fa-eye"></i> view</a></span>
+                        </div>
+                      </div>
+
+
+
+                      <div class="max-w-sm rounded p-2 overflow-hidden shadow-lg bg-slate-100 dark:bg-slate-900  sm:mx-10 mb-10 myAnim3">
+                        <div class="flex justify-between space-x-2">
+                          <div class="basis-7/12">
+                            <img src="src/img/blog.png" alt="">
+                          </div>
+                          <div class="basis-5/12">
+                            <h3 class="text-lg font-semibold">My Blog</h3>
+                            <div class="text-xs">NextJs + Tailwind + Sanity</div>
+                          </div>
+                        </div>
+      
+                          <div class="py-2">
+                            <p class="text-sm">
+                              my personal blogging platform, where i write about computer programming and new things i have learnt
+                            </p>
+                          </div>
+                          <div class="space-x-2">
+                            <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://charlesayomikeblog.vercel.app/"><i class="fa-regular fa-eye"></i> view</a></span>
+                            <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://github.com/AyomikeCharles/myblog"><i class="fa-solid fa-code"></i> code</a></span>
+                          </div>
+                        </div>
+
+
+
+
+                        <div class="max-w-sm rounded p-2 overflow-hidden shadow-lg bg-slate-100 dark:bg-slate-900  sm:mx-10 mb-10 myAnim3">
+                          <div class="flex justify-between space-x-2">
+                            <div class="basis-7/12">
+                              <img src="src/img/mp.png" alt="">
+                            </div>
+                            <div class="basis-5/12">
+                              <h3 class="text-lg font-semibold">Music Player</h3>
+                              <div class="text-xs">ReactJs + Tailwind + RapidApi </div>
+                            </div>
+                          </div>
+        
+                            <div class="py-2">
+                              <p class="text-sm">
+                                A music website built with react, i also built a custom fetch to fetch the music from rapidAPI
+                              </p>
+                            </div>
+                            <div class="space-x-2">
+                              <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://ayomikecharles.github.io/music-player"><i class="fa-regular fa-eye"></i> view</a></span>
+                              <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://github.com/AyomikeCharles/music-player"><i class="fa-solid fa-code"></i> code</a></span>
+                            </div>
+                          </div>
+
+
+
+
+
+                          <div class="max-w-sm rounded p-2 overflow-hidden shadow-lg bg-slate-100 dark:bg-slate-900  sm:mx-10 mb-10 myAnim3">
+                            <div class="flex justify-between space-x-2">
+                              <div class="basis-7/12">
+                                <img src="src/img/xo.png" alt="">
+                              </div>
+                              <div class="basis-5/12">
+                                <h3 class="text-lg font-semibold">Tic Tac Toe</h3>
+                                <div class="text-xs">ReactJs + CSS </div>
+                              </div>
+                            </div>
+          
+                              <div class="py-2">
+                                <p class="text-sm">
+                                  A tic tac toe game, it include sound while playing the game and also vanilla css animation
+                                </p>
+                              </div>
+                              <div class="space-x-2">
+                                <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://ayomikecharles.github.io/x_and_o"><i class="fa-regular fa-eye"></i> view</a></span>
+                                <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://github.com/AyomikeCharles/x_and_o"><i class="fa-solid fa-code"></i> code</a></span>
+                              </div>
+                            </div>
+
+
+
+                            <div class="max-w-sm rounded p-2 overflow-hidden shadow-lg bg-slate-100 dark:bg-slate-900  sm:mx-10 mb-10 myAnim3">
+                              <div class="flex justify-between space-x-2">
+                                <div class="basis-7/12">
+                                  <img src="src/img/todo.png" alt="">
+                                </div>
+                                <div class="basis-5/12">
+                                  <h3 class="text-lg font-semibold">Todo App</h3>
+                                  <div class="text-xs">ReactJs + CSS </div>
+                                </div>
+                              </div>
             
+                                <div class="py-2">
+                                  <p class="text-sm">
+                                    A Todo App built with react and vanilla css, user can add a task, mark as complete or delete the task
+                                  </p>
+                                </div>
+                                <div class="space-x-2">
+                                  <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://ayomikecharles.github.io/todos/"><i class="fa-regular fa-eye"></i> view</a></span>
+                                  <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://github.com/AyomikeCharles/todos/tree/master"><i class="fa-solid fa-code"></i> code</a></span>
+                                </div>
+                              </div>
 
-                  <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-200 dark:bg-stone-600  sm:mx-10 mb-10 myAnim3">
-                    <img class="w-full h-44" src="src/img/cal.png" alt="">
-                    <div class="p-4">
-                      <div class="text-xl mb-2">Calculator</div>
-                      <p class="text-base">
-                         A basic calculator built with react.
-                      </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://ayomikecharles.github.io/calculator">view</a></span>
-                      <span class="inline-block bg-white dark:bg-gray-200 hover:bg-teal-500 duration-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a href="https://github.com/AyomikeCharles/calculator">code</a></span>
-                      <i class="fa-brands fa-react fa-lg"></i>
-                      <i class="fa-brands fa-html5 fa-lg"></i>
-                      <i class="fa-brands fa-css3-alt fa-lg"></i>
-                    </div>
-                  </div>
+
+
+
+
+                              <div class="max-w-sm rounded p-2 overflow-hidden shadow-lg bg-slate-100 dark:bg-slate-900  sm:mx-10 mb-10 myAnim3">
+                                <div class="flex justify-between space-x-2">
+                                  <div class="basis-7/12">
+                                    <img src="src/img/cal.png" alt="">
+                                  </div>
+                                  <div class="basis-5/12">
+                                    <h3 class="text-lg font-semibold">Calculator</h3>
+                                    <div class="text-xs">ReactJs + CSS </div>
+                                  </div>
+                                </div>
+              
+                                  <div class="py-2">
+                                    <p class="text-sm">
+                                      A simple calculator for carrying out basis arithmetic operation like addition, subtraction etc
+                                    </p>
+                                  </div>
+                                  <div class="space-x-2">
+                                    <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://ayomikecharles.github.io/calculator"><i class="fa-regular fa-eye"></i> view</a></span>
+                                    <span class="hover:text-purple-500 duration-700 text-xs"><a target=”_blank” href="https://github.com/AyomikeCharles/calculator"><i class="fa-solid fa-code"></i> code</a></span>
+                                  </div>
+                                </div>
+            
 
             </div>
 
@@ -333,33 +377,34 @@
     </section>
 
 
-    <section id="contact" class="py-24 bg-gray-200 dark:bg-stone-800">
-        <h4 class="[text-shadow:_0_0_8px_var(--tw-shadow-color)] shadow-teal-500 text-center text-5xl my-4 myAmin5">Contact Me</h4>
-        <div class="flex justify-center mt-5 p-2">
+    <section id="contact" class="py-10">
+        <h4 class="[text-shadow:_0_0_8px_var(--tw-shadow-color)] shadow-purple-500 text-center text-5xl my-4">Contact Me</h4>
+
+        <div class="flex justify-center mt-5 p-2 myAmin5">
             <div class="myAmin5"><a class="px-2 py-2 m-1 border border-black dark:border-white rounded" href="mailto:charlesayomike4@gmail.com"><i class="fa-solid fa-envelope fa-lg"></i> mail</a></div>
             <div class="myAmin5"><a class="px-2 py-2 m-1 border border-black dark:border-white rounded" href="https://wa.me/2348140231279"><i class="fa-brands fa-whatsapp fa-lg"></i> whatsapp</a></div>
             <div class="myAmin5"><a class="px-2 py-2 m-1 border border-black dark:border-white rounded" href="TEL:+2348158786059"><i class="fa-solid fa-phone fa-lg"></i> call</a></div>
         </div>
-        <div class="flex justify-center">
+        <div class="flex justify-center myAmin5">
             <div class='w-full md:w-2/4 p-5 md:p-0'>
                 <form action="mailto:charlesayomike4@gmail.com" method="post" enctype="text/plain">
                     <div class="my-4 myAmin5">
-                        <input type="text" placeholder="Name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow"/>
+                        <input type="text" placeholder="Name" class="shadow appearance-none border rounded w-full py-2 bg-neutral-100 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow"/>
                     </div>
                     <div class="my-4 myAmin5">
-                        <input type="email" placeholder="Email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow"/>
+                        <input type="email" placeholder="Email" class="shadow appearance-none border rounded w-full bg-neutral-100 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow"/>
                     </div>
                     <div class="my-4 myAmin5">
-                        <textarea placeholder="Message" class="w-full h-44 focus:outline-none focus:shadow shadow appearance-none border rounded py-2 px-3  text-gray-700"></textarea>
+                        <textarea placeholder="Message" class="w-full h-44 focus:outline-none focus:shadow shadow bg-neutral-100 border rounded py-2 px-3  text-gray-700"></textarea>
                     </div>
-                    <button class="bg-teal-700 hover:bg-teal-900 text-white rounded focus:shadow focus:outline-none py-2 px-4 myAmin5" type="submit">submit</button>
+                    <button class="bg-purple-700 hover:bg-purple-900 text-white rounded focus:shadow focus:outline-none py-2 px-4 myAmin5" type="submit">submit</button>
                 </form>
             </div>
         </div>
         
     </section>
 
-    <footer class="p-5 bg-white dark:bg-neutral-800">
+    <footer class="p-5 bg-neutral-100 dark:bg-neutral-800">
         <div class="flex justify-center">
             Copyright @2022 CHARLES AYOMIKE. All rights reserved.
         </div>
@@ -367,7 +412,11 @@
     
 </body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/EasePack.min.js"></script> -->
+
+
 <script src="src/script.js"></script>
 </html>

@@ -1,4 +1,26 @@
-gsap.registerPlugin(ScrollTrigger);
+const words = ['Web Developer', 'Mobile App Developer', 'Writer', 'Tech Enthusiast' ]
+let animateCursor = gsap.to('.cursor', {
+    opacity:0, ease:"power2.inOut", repeat:-1
+})
+
+let boxTl = gsap.timeline()
+
+boxTl
+// .to('.box', {
+//     duration:1, ease:"power4.inOut", width:'7vw', delay:0.5
+// })
+.from('.hi', {duration:1, y:'17vw', ease:'power3.out', onComplete:()=>masterTl.play()})
+// .to('.box', {duration:1, ease:'elastic.out', height:'15px'})
+// .to('.box', {duration:2, autoAlpha:0.5, yoyo:true, repeat:-1, ease:"rough({ template: none.out, strength: 1, points: 20, taper: none, randomize: true, clamp: false})"})
+
+const masterTl = gsap.timeline({repeat:-1}).pause()
+
+words.forEach(element => {
+    let tl = gsap.timeline({repeat:1, yoyo:true, repeatDelay:1})
+    tl.to(".text", {duration:1.5, text:element})
+    masterTl.add(tl)
+});
+
 
 
 gsap.from(".myAnim",{
@@ -57,7 +79,7 @@ gsap.from(".myAmin5",{
 
 let sidebar = gsap.to('#sidebar',{
     xPercent:100,
-    ease:"bounce.out",
+    ease:"bounce.inOut",
     duration:0.6,
     paused:true
 })
